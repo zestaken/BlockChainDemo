@@ -1,16 +1,10 @@
----
-title: Java实现区块链
-date: 2021-07-26 08:02:19
-tags: [Java, 区块链]
-categories: 项目
----
-
 # 区块链概念
 
 * 区块链（BlockChain）起源于比特币，2008年11月1日，一位自称中本聪(Satoshi Nakamoto)的人发表了《比特币:一种点对点的电子现金系统》一文，阐述了基于P2P网络技术、加密技术、时间戳技术、区块链技术等的电子现金系统的构架理念，这标志着比特币的诞生。
 * 在比特币形成过程中，区块（ZJChain.Block）是一个一个的存储单元，记录了一定时间内各个区块节点全部的交流信息。各个区块之间通过随机散列(也称哈希算法)实现链接，后一个区块包含前一个区块的哈希值，随着信息交流的扩大，一个区块与一个区块相继接续，形成的结果就叫区块链（BlockChain）。
 * 看着这些概念头脑中也难以形成一个具体的印象，不如实现一个区块链的demo来看一看。
 * [参考教程](https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa)
+* [代码地址](https://github.com/zestaken/BlockChainDemo)
 
 # 1. 实现Block结构
 

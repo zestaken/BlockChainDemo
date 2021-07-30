@@ -463,7 +463,7 @@ public class TransactionOutput {
 }
 ```
 
-# 6. 实现钱包（Wallet） 
+# 6. 完善钱包（Wallet） 
 
 * 一个钱包中保存着每个账户的公私钥，并且具备统计该账户拥有的UTXO并计算余额的能力，此外钱包还有创建交易发起支出的能力。
 ```java
